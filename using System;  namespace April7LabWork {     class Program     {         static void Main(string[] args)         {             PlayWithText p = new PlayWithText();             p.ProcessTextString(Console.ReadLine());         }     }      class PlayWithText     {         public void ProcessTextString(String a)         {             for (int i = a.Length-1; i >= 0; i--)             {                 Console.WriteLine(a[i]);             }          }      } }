@@ -1,0 +1,26 @@
+using System;
+
+namespace April7LabWork
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            PlayWithText p = new PlayWithText();
+            p.ProcessTextString(Console.ReadLine());
+        }
+    }
+
+    class PlayWithText
+    {
+        public void ProcessTextString(String a)
+        {
+            for (int i = a.Length-1; i >= 0; i--)
+            {
+                Console.WriteLine(a[i]);
+            }
+
+        }
+
+    }
+}
