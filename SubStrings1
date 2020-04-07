@@ -1,0 +1,28 @@
+using System;
+
+namespace April7LabWork
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            PlayWithText p = new PlayWithText();
+            p.ProcessTextString(Console.ReadLine());
+        }
+    }
+
+    class PlayWithText
+    {
+        public void ProcessTextString(String a)
+        {
+            // how to detect characters
+            // the ability to work with STRINGS is one of the core skills of programming
+            // Let's practice it:
+
+            // play with SubStrings
+            Console.WriteLine(a.Substring(0, 3));
+
+        }
+
+    }
+}
